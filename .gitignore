@@ -1,0 +1,28 @@
+.tools/
+artifacts/
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# 本机配置、日志、诊断与打包文件
+[Dd]ata/
+[Bb]ackups/
+launcher.json*
+hosts-pending.txt
+*.cfg
+*.lnk
+*.url
+*.log
+*.dmp
+*.zip
+TestResults/
+
+# 本地环境及证书
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
